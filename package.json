@@ -2,6 +2,7 @@
   "name": "google-login-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yairtawil.github.io/google-login-test/",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -9,6 +10,7 @@
     "react-scripts-ts": "2.16.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
@@ -20,6 +22,7 @@
     "@types/react": "^16.3.14",
     "@types/react-dom": "^16.0.5",
     "@types/react-router-dom": "^4.2.6",
+    "gh-pages": "^1.1.0",
     "typescript": "^2.8.3"
   }
 }

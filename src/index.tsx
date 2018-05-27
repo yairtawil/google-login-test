@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render((
-        <BrowserRouter>
+        <BrowserRouter basename={'/google-login-test/'}>
             <App/>
         </BrowserRouter>
     ), document.getElementById('root') as HTMLElement
